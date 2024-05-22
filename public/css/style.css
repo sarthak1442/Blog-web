@@ -1,0 +1,91 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #333;
+  color: rgb(16, 234, 27);
+  padding: 10px 20px;
+}
+
+header nav a {
+  color: rgb(94, 232, 14);
+  text-decoration: solid;
+  margin-right: 10px;
+}
+
+main {
+  padding: 100px;
+  /*margin-left: 100px;*/
+  max-width: 100px;
+  padding-left: 100rem;
+  /*flex-direction: column;*/
+}
+
+h1 {
+  color: #333;
+  padding-left: 43rem;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 36rem;
+}
+
+li {
+  margin-bottom: 90rem;
+}
+
+form {
+  margin-bottom: 50px;
+  max-width: 100%;
+}
+
+button {
+  background-color: #333;
+  color: white;
+  border: 0px;
+  padding: 18px;
+  /*padding-left: 10rem;*/
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #8f8989;
+}
+
+textarea {
+  width: 90%;
+  max-width: 100%;
+  height: 190px;
+}
+
+a {
+  text-decoration: none;
+  padding: auto;
+  display: inline-flex;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  text-shadow: blue;
+  text-transform: inherit;
+}
+
+p {
+  max-width: 100%;
+  min-height: 250px;
+}
+
+.post-area {
+  max-width: 600px; /* Set a fixed maximum width for the post content */
+  word-wrap: break-word; /* Enable word wrapping */
+  white-space: pre-wrap; /* Preserve whitespace and enable wrapping */
+  margin-left: 30%;
+}
+
+.area {
+  padding: 10px;
+  margin-left: 50px;
+}
